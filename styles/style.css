@@ -1,1 +1,247 @@
-/* место для вашего кода */
+.header {
+  width: 100%;
+  height: auto;  
+  display: grid;
+ grid-template-columns: 1fr min-content 1fr;
+ gap: 32px;
+ align-items: center;
+ padding: 92px 50px 96px 45px;
+
+}
+.header_menu {
+}
+
+.header__links-list {
+display: flex;
+justify-content: center;
+gap: 27px;
+list-style: circle;
+}
+
+.header__links-list-item {
+text-decoration: underline;
+}
+
+.header__link_active {
+text-decoration: none;
+list-style-type: none;
+}
+
+.header__link{
+font-family: Raleway;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.header__logo {
+display: block;
+}
+
+.header__logo-image {
+width: 148px;
+height: 105px;
+top: 92px;
+left: 478px;
+}
+
+.address {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 240px;
+justify-self: end;
+}
+
+.address_link {
+font-family: Raleway;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+line-height: 24.3px;
+letter-spacing: 0%;
+
+}
+.header__links-list-item_no-bullit {
+text-decoration: underline;
+list-style-type:none;
+}
+
+.cover {
+position: relative;
+ background-image: url(/images/cover.jpg);
+background-size: cover ;
+background-position: center ;
+width: 1100px;
+min-height: 757px;
+background-color: rgba(209, 16, 16, 0.589);
+z-index: 1;
+}
+
+ .overlay {
+width: 1100px;
+min-height: 757px;
+background-color: rgba(0, 0, 0, 0.589);
+}
+
+.cover-title{
+font-family: Raleway;
+color: white;
+font-weight: 700px;
+font-style: Bold;
+font-size: 100px;
+text-transform: uppercase;
+padding: 165px 20px 103px 50px;
+}
+
+.aligned-text{
+display: block;
+}
+
+.aligned-text_left{
+letter-spacing: 30px;
+}
+.aligned-text_center{
+text-align: center;
+letter-spacing: 30px;
+margin-top: 18px;
+}
+.aligned-text_right{
+text-align: right;
+letter-spacing: 30px;
+margin-top: 18px;
+}
+.cover__description{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1100px;
+height: 51px;
+opacity: 1;
+border-width: 1px;
+padding: 0 50px 0 50px;
+}
+
+.cover__description-text{
+font-family: Raleway;
+color: white;
+font-weight: 400px;
+font-style: Regular;
+font-size: 22px;
+line-height: 28px;
+text-transform: uppercase;
+word-spacing: 19px;
+}
+
+.bet-button {
+width: 256px;
+height: 51px;
+border: 1px solid #FFFFFF;
+background-color: transparent;
+font-family: Raleway;
+font-weight: 500px;
+font-style: Medium;
+font-size: 22px;
+line-height: 100%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.lots{
+width: 1052px;
+height: 723px;
+margin-top: 180px;
+margin-left: 24px;
+}
+
+.lots__heading{
+font-family: Raleway;
+font-weight: 700px;
+font-style: Bold;
+font-size: 40px;
+text-transform: uppercase;
+margin-left: 40px;
+margin-bottom: 27px;
+}
+
+.lots__card-list {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+gap:25px;
+height: 596px;
+}
+
+.lots__card-list-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+list-style-type: none;
+width: 334px;
+min-height: 100%;
+}
+.card_type_film {
+background-image: url(/images/card-lot-01.jpg);
+background-size: cover;
+background-position: center;
+}
+.card_type_book {
+background-image: url(/images/card-lot-02.jpg);
+background-size: cover;
+background-position: center;
+}
+.card_type_picture {
+background-image: url(/images/card-lot-03.jpg);
+background-size: cover;
+background-position: center;
+}
+.card__title {
+font-family: Raleway;
+font-weight: 700px;
+font-style: Bold;
+font-size: 22px;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-style: solid;
+padding:48px 40px 0 40px;
+color: #FFFFFF;
+}
+
+.card__text {
+font-family: Raleway;
+font-weight: 400px;
+font-style: Regular;
+font-size: 20px;
+padding: 0 40px 50px 40px;
+color: #FFFFFF;
+}
+
+.lots__look-more-link {
+display: flex;
+font-family: Raleway;
+font-weight: 400px;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+text-decoration: underline;
+padding-left: 40px;
+padding-top: 32px;
+}
+
+.about {
+width: 1052px;
+height: 595px;
+top: 2073px;
+padding: 0 24px 180px 24px;
+}
+
+.footer {
+ width: 1100px;
+height: 180px;
+top: 2848px;
+background-color: aqua;
+}
